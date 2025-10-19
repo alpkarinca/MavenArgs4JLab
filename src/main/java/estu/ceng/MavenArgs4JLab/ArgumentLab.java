@@ -9,12 +9,12 @@ class CalculatorApp {
 
 
 
-    @Option (name="--num1", aliases="--firstNumber", usage="It takes number 1", required=true)
+    @Option (name="--num1", aliases="--number1", usage="It takes number 1", required=true)
 
     private double num1;
 
 
-    @Option (name="--num2", aliases="--secondNumber", usage="It takes number 1", required=true)
+    @Option (name="--num2", aliases="--number2", usage="It takes number 1", required=true)
 
     private double num2;
 
